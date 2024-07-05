@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 23px;
 }
 
 body {
@@ -25,8 +25,8 @@ header {
 .interior h1 {
   color: #ffffff;
   float: left;
-  padding: 15px 15px;
-  font-size: 25px;
+  padding-left: 20px;
+  font-size: 35px;
 }
 
 .navegacion {
@@ -63,13 +63,13 @@ header {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 
 
 .login {
-  width: 450px;
+  width: 650px;
   margin: 100px auto;
   padding: 20px;
   border: 2px solid #0273b0;
@@ -79,7 +79,7 @@ header {
 .login h1 {
   text-align: center;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 30px;
   padding: 20px 0 20px 0;
   background-color: #1984bc;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
@@ -91,22 +91,24 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .login form h4 {
   background-color: #1984bc;
-  font-size: 15px;
+  font-size: 20px;
   color: #ffffff;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .login form label {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background-color: #1984bc;
   color: #ffffff;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
@@ -115,10 +117,10 @@ header {
 }
 
 .login form input, .login form input, .login form select {
-  width: 310px;
-  height: 50px;
+  width: 450px;
+  height: 70px;
   border: 1px solid #dee0e4;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   padding: 0 15px;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   border-top-right-radius: 25px;
@@ -128,7 +130,7 @@ header {
 .login form input[type="submit"] {
   width: 50%;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 25px;
   background-color: #1984bc;
   border: 0;
   border-radius: 10px;
@@ -241,6 +243,7 @@ header {
 }
 
 #comentario {
+  margin-top: 10px;
   width: 90%;
   height: 100px;
   border: 2px solid #1984bc;
